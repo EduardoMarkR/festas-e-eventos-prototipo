@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Espaço Mark Solutions</title>
+  <meta
+    name="description"
+    content="Blog do Espaço Mark Solutions com dicas sobre casamentos, aniversários, eventos corporativos, decoração, tendências e organização de eventos premium."
+  />
+  <meta
+    name="keywords"
+    content="salão de festas, espaço para eventos, casamento, aniversário, evento corporativo, blog de eventos, decoração para eventos, espaço premium para festas, salão para casamento, aluguel de espaço para eventos, eventos sociais"
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Espaço Mark Solutions" />
+
+  <meta property="og:title" content="Blog | Espaço Mark Solutions" />
+  <meta
+    property="og:description"
+    content="Conteúdos sobre casamentos, aniversários, eventos corporativos, decoração e tendências para eventos especiais."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Blog Espaço Mark Solutions",
+    "description": "Conteúdos sobre casamentos, aniversários, eventos corporativos, decoração e tendências para eventos premium.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Espaço Mark Solutions"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header solid" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">MS</span>
+        <span class="brand-text">Espaço Mark Solutions</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="index.html">Início</a>
+        <a href="index.html#sobre">Sobre</a>
+        <a href="index.html#eventos">Eventos</a>
+        <a href="index.html#estrutura">Estrutura</a>
+        <a href="index.html#galeria">Galeria</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="index.html#contato">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-outline btn-sm hide-mobile" href="index.html#contato">Solicitar orçamento</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="blog-page">
+    <section class="blog-hero">
+      <div class="container reveal">
+        <p class="section-tag">Blog</p>
+        <h1 class="blog-title">Conteúdos para inspirar eventos inesquecíveis</h1>
+        <p class="blog-subtitle">
+          Tendências, ideias, dicas de organização e referências para celebrar com mais estilo.
+        </p>
+      </div>
+    </section>
+
+    <section class="section blog-section">
+      <div class="container">
+        <div class="blog-toolbar reveal">
+          <div class="search-box">
+            <input
+              type="text"
+              id="blogSearch"
+              placeholder="Buscar por título, assunto ou tag..."
+            />
+          </div>
+
+          <div class="filter-box">
+            <select id="blogFilter">
+              <option value="todos">Todas as categorias</option>
+              <option value="casamento">Casamento</option>
+              <option value="aniversario">Aniversário</option>
+              <option value="corporativo">Corporativo</option>
+              <option value="decoracao">Decoração</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="blog-tags-box reveal">
+          <div class="blog-tags-head">
+            <h2>Tags em destaque</h2>
+            <p>
+              Busque por temas específicos para encontrar conteúdos relacionados a salão de festas, decoração, organização de eventos e muito mais. 
+            </p>
+          </div>
+
+          <div class="blog-tags-list" id="tagButtons">
+            <button class="tag-chip active" data-tag="todas" type="button">Todas</button>
+            <button class="tag-chip" data-tag="salão de festas" type="button">salão de festas</button>
+            <button class="tag-chip" data-tag="casamento" type="button">casamento</button>
+            <button class="tag-chip" data-tag="aniversário" type="button">aniversário</button>
+            <button class="tag-chip" data-tag="evento corporativo" type="button">evento corporativo</button>
+            <button class="tag-chip" data-tag="decoração" type="button">decoração</button>
+            <button class="tag-chip" data-tag="espaço para eventos" type="button">espaço para eventos</button>
+            <button class="tag-chip" data-tag="evento premium" type="button">evento premium</button>
+            <button class="tag-chip" data-tag="festa sofisticada" type="button">festa sofisticada</button>
+            <button class="tag-chip" data-tag="organização de eventos" type="button">organização de eventos</button>
+          </div>
+        </div>
+
+        <div class="blog-grid" id="blogGrid">
+          <article
+            class="post-card reveal"
+            data-category="casamento"
+            data-title="5 ideias para um casamento elegante e memorável"
+            data-tags="casamento, salão de festas, espaço para eventos, evento premium, cerimônia, recepção, festa sofisticada"
+          >
+            <div class="post-thumb"></div>
+            <div class="post-content">
+              <span class="post-category">Casamento</span>
+              <h3>5 ideias para um casamento elegante e memorável</h3>
+              <p>
+                Descubra elementos que elevam a experiência e transformam a celebração em algo realmente especial.
+              </p>
+
+              <div class="post-tags">
+                <span>casamento</span>
+                <span>salão de festas</span>
+                <span>evento premium</span>
+              </div>
+
+              <a href="#" class="post-link">Ler mais</a>
+            </div>
+          </article>
+
+          <article
+            class="post-card reveal"
+            data-category="aniversario"
+            data-title="Como criar um aniversário sofisticado sem exageros"
+            data-tags="aniversário, festa sofisticada, espaço para eventos, salão de festas, decoração, comemoração"
+          >
+            <div class="post-thumb"></div>
+            <div class="post-content">
+              <span class="post-category">Aniversário</span>
+              <h3>Como criar um aniversário sofisticado sem exageros</h3>
+              <p>
+                Um evento elegante também pode ser acolhedor, leve e cheio de personalidade.
+              </p>
+
+              <div class="post-tags">
+                <span>aniversário</span>
+                <span>decoração</span>
+                <span>festa sofisticada</span>
+              </div>
+
+              <a href="#" class="post-link">Ler mais</a>
+            </div>
+          </article>
+
+          <article
+            class="post-card reveal"
+            data-category="corporativo"
+            data-title="Eventos corporativos com presença e sofisticação"
+            data-tags="evento corporativo, espaço para eventos, confraternização, evento empresarial, organização de eventos"
+          >
+            <div class="post-thumb"></div>
+            <div class="post-content">
+              <span class="post-category">Corporativo</span>
+              <h3>Eventos corporativos com presença e sofisticação</h3>
+              <p>
+                Veja como unir imagem profissional, conforto e experiência em encontros empresariais.
+              </p>
+
+              <div class="post-tags">
+                <span>evento corporativo</span>
+                <span>evento empresarial</span>
+                <span>organização de eventos</span>
+              </div>
+
+              <a href="#" class="post-link">Ler mais</a>
+            </div>
+          </article>
+
+          <article
+            class="post-card reveal"
+            data-category="decoracao"
+            data-title="Tendências de decoração para eventos premium"
+            data-tags="decoração, evento premium, espaço para eventos, festa sofisticada, tendências de eventos"
+          >
+            <div class="post-thumb"></div>
+            <div class="post-content">
+              <span class="post-category">Decoração</span>
+              <h3>Tendências de decoração para eventos premium</h3>
+              <p>
+                Paletas, texturas e escolhas visuais que deixam o ambiente mais refinado.
+              </p>
+
+              <div class="post-tags">
+                <span>decoração</span>
+                <span>evento premium</span>
+                <span>tendências</span>
+              </div>
+
+              <a href="#" class="post-link">Ler mais</a>
+            </div>
+          </article>
+
+          <article
+            class="post-card reveal"
+            data-category="casamento"
+            data-title="O que observar antes de escolher o espaço do casamento"
+            data-tags="casamento, espaço para eventos, salão para casamento, recepção, cerimônia, aluguel de espaço para eventos"
+          >
+            <div class="post-thumb"></div>
+            <div class="post-content">
+              <span class="post-category">Casamento</span>
+              <h3>O que observar antes de escolher o espaço do casamento</h3>
+              <p>
+                Estrutura, circulação, estética e experiência: o que realmente importa na escolha.
+              </p>
+
+              <div class="post-tags">
+                <span>salão para casamento</span>
+                <span>espaço para eventos</span>
+                <span>casamento</span>
+              </div>
+
+              <a href="#" class="post-link">Ler mais</a>
+            </div>
+          </article>
+
+          <article
+            class="post-card reveal"
+            data-category="decoracao"
+            data-title="Como deixar seu evento mais instagramável sem perder elegância"
+            data-tags="decoração, evento premium, festa sofisticada, espaço para eventos, identidade visual"
+          >
+            <div class="post-thumb"></div>
+            <div class="post-content">
+              <span class="post-category">Decoração</span>
+              <h3>Como deixar seu evento mais instagramável sem perder elegância</h3>
+              <p>
+                Boas escolhas visuais criam impacto sem comprometer o bom gosto.
+              </p>
+
+              <div class="post-tags">
+                <span>decoração</span>
+                <span>identidade visual</span>
+                <span>evento premium</span>
+              </div>
+
+              <a href="#" class="post-link">Ler mais</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="no-results" id="noResults">Nenhum conteúdo encontrado para sua busca.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Espaço Mark Solutions. Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="index.html">Início</a>
+        <a href="blog.html">Blog</a>
+        <a href="index.html#contato">Contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
